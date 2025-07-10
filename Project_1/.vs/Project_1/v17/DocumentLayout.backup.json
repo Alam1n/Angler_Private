@@ -1,0 +1,300 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\muham\\source\\repos\\Project_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|C:\\Users\\muham\\source\\repos\\Project_1\\Visualize.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|solutionrelative:Visualize.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|C:\\Users\\muham\\source\\repos\\Project_1\\model.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|solutionrelative:model.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|C:\\Users\\muham\\source\\repos\\Project_1\\VIsualize.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|solutionrelative:VIsualize.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|C:\\Users\\muham\\source\\repos\\Project_1\\PrepocessDataCell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|solutionrelative:PrepocessDataCell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|C:\\Users\\muham\\source\\repos\\Project_1\\PrepocessDataCell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|solutionrelative:PrepocessDataCell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|C:\\Users\\muham\\source\\repos\\Project_1\\python_binding.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|solutionrelative:python_binding.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|C:\\Users\\muham\\source\\repos\\Project_1\\python_binding.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|solutionrelative:python_binding.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|C:\\Users\\muham\\source\\repos\\Project_1\\LogsWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|solutionrelative:LogsWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|C:\\Users\\muham\\source\\repos\\Project_1\\Project_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|solutionrelative:Project_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|C:\\Users\\muham\\source\\repos\\Project_1\\Session_Manger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|solutionrelative:Session_Manger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|C:\\Users\\muham\\source\\repos\\Project_1\\ModelCell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|solutionrelative:ModelCell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|C:\\Users\\muham\\source\\repos\\Project_1\\File_Reader_Cell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|solutionrelative:File_Reader_Cell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|C:\\Users\\muham\\source\\repos\\Project_1\\File_Reader_Cell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|solutionrelative:File_Reader_Cell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|C:\\Users\\muham\\source\\repos\\Project_1\\Cell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|solutionrelative:Cell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|C:\\Users\\muham\\source\\repos\\Project_1\\LogsWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|solutionrelative:LogsWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|C:\\Users\\muham\\source\\repos\\Project_1\\Cell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|solutionrelative:Cell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|C:\\Users\\muham\\source\\repos\\Project_1\\ModelCell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B28E5989-3D4A-467B-AA84-5BB45B365D1A}|Project_1.vcxproj|solutionrelative:ModelCell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Project_1.cpp",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\Project_1\\Project_1.cpp",
+              "RelativeDocumentMoniker": "Project_1.cpp",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\Project_1\\Project_1.cpp",
+              "RelativeToolTip": "Project_1.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-12T19:31:14.701Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "model.py",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\Project_1\\model.py",
+              "RelativeDocumentMoniker": "model.py",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\Project_1\\model.py",
+              "RelativeToolTip": "model.py",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAAAA8BAAAbAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM5SURBVEhLtVVNSFRRFD7z85yGyZnUYZwxIrGUsCRSSrFFJlQriSCKCBdBLmZTlKCBi8xVzc5NiyREIqJVC6FctCgy6sWggyAVWDOpTaWpozO9mTfv53bue3fGMX3yLPrg45x33r3n3Pvd8\u002B6D/wpCiIW5eXR0dBDmmsXhgYGBMPPXYcMC/f397Glz9PT0SKIoTkuSdBGL8Cy8BlZm/woej4fr6uoq5TjuIS6skYXXwLAAz/OGLITP5yspKNLAwsagEgmCYIq9vb15PxqNLgaDwSmcv4el0vBPElGEQiGNQ0NDJTabzY\u002BhOv2NDjuz6/CnFIVobNTlRmk0m8Pg4GA4EomwJx2GO6BJNmJTUxOg3iAoFphNZCG2mIGltAp2u50euoNNz8NwB0ZYEUS4PfIeYvMrIKRFUGQZKUG52wF9504eGh8f59hQDVvuolhChjIXB6Hz9Sy5zpn5ZRgOf3G0tLTUsBQatiyRqhJ4/eEbdD54A6qiIGXdYpGUkIHi4uLtLIWGTbtIwYmUFqsVwtMpePQuDmPRn3C81g/NNT44UVcBnI2Ow13QIqoKx\u002BoTN0jyGSHS3CheRaWmuijhrob7L6byeq9Ko/t09ZolKoDwSp\u002BUmTwK3s6bpiQamYizVVLSXeX81RiVqrqczsS7UslggY8A8o/Tm0qUw\u002Bx8UltljjZcaaXXBVXlbqjyu2FvwANnmqvgQsMnTCpggTQSbTa\u002B2/A2LZToDi\u002BBLFE5JNhZ4oR77SI4yRS\u002Byd3saKU4Jk8BqCIyiwXQ\u002BrvNdVEF9jiVgEoRbHWBU3qJyb4iMak0CyB\u002BRrvMVo7M7aJo15IpiVoPBPKH6dkmsyhClXQpZJa40HdUA3CBJ6Ykoki7KyG\u002BkIS2g2nwkceYhElRVIu/LbwhCC2MTWl1ocXe3XFqDuzeI6b/aFb8FiwWCxSp2B0Ld/XkVG8FLVHQx3Nw4SVY0X0Lh48ieRyfNCURBf2I6BkQ7KFVrZksZZcBvJdwFU5tLCZ\u002BTpNrvhYpAN0BczfE9WtXJ/f53u6HxFO9SG4XrnqQAn1ZzuE5i8mH2fCtAz9/G/IKkZMR8mtCJqkxQrLfYxjjke3INjYUAfAb47MfvRyFLYgAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-10-13T16:07:50.219Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Session_Manger.h",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\Project_1\\Session_Manger.h",
+              "RelativeDocumentMoniker": "Session_Manger.h",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\Project_1\\Session_Manger.h",
+              "RelativeToolTip": "Session_Manger.h",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-02T11:22:30.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LogsWindow.h",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\Project_1\\LogsWindow.h",
+              "RelativeDocumentMoniker": "LogsWindow.h",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\Project_1\\LogsWindow.h",
+              "RelativeToolTip": "LogsWindow.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-18T13:51:38.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LogsWindow.cpp",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\Project_1\\LogsWindow.cpp",
+              "RelativeDocumentMoniker": "LogsWindow.cpp",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\Project_1\\LogsWindow.cpp",
+              "RelativeToolTip": "LogsWindow.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-18T13:51:24.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Visualize.h",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\Project_1\\Visualize.h",
+              "RelativeDocumentMoniker": "Visualize.h",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\Project_1\\Visualize.h",
+              "RelativeToolTip": "Visualize.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-06T10:06:41.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Visualize.cpp",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\Project_1\\Visualize.cpp",
+              "RelativeDocumentMoniker": "Visualize.cpp",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\Project_1\\Visualize.cpp*",
+              "RelativeToolTip": "Visualize.cpp*",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAgwJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-06T10:06:23.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Cell.h",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\Project_1\\Cell.h",
+              "RelativeDocumentMoniker": "Cell.h",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\Project_1\\Cell.h",
+              "RelativeToolTip": "Cell.h",
+              "ViewState": "AgIAABgAAAAAAAAAAIAwwB4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-03T19:59:33.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Cell.cpp",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\Project_1\\Cell.cpp",
+              "RelativeDocumentMoniker": "Cell.cpp",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\Project_1\\Cell.cpp",
+              "RelativeToolTip": "Cell.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-03T11:41:07.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "File_Reader_Cell.h",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\Project_1\\File_Reader_Cell.h",
+              "RelativeDocumentMoniker": "File_Reader_Cell.h",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\Project_1\\File_Reader_Cell.h",
+              "RelativeToolTip": "File_Reader_Cell.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-04T21:17:08.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "File_Reader_Cell.cpp",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\Project_1\\File_Reader_Cell.cpp",
+              "RelativeDocumentMoniker": "File_Reader_Cell.cpp",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\Project_1\\File_Reader_Cell.cpp",
+              "RelativeToolTip": "File_Reader_Cell.cpp",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswCIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-02T11:20:47.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PrepocessDataCell.h",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\Project_1\\PrepocessDataCell.h",
+              "RelativeDocumentMoniker": "PrepocessDataCell.h",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\Project_1\\PrepocessDataCell.h",
+              "RelativeToolTip": "PrepocessDataCell.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-27T20:50:59.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PrepocessDataCell.cpp",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\Project_1\\PrepocessDataCell.cpp",
+              "RelativeDocumentMoniker": "PrepocessDataCell.cpp",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\Project_1\\PrepocessDataCell.cpp",
+              "RelativeToolTip": "PrepocessDataCell.cpp",
+              "ViewState": "AgIAAIcBAAAAAAAAAAAAAP8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-27T20:50:57.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ModelCell.h",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\Project_1\\ModelCell.h",
+              "RelativeDocumentMoniker": "ModelCell.h",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\Project_1\\ModelCell.h",
+              "RelativeToolTip": "ModelCell.h",
+              "ViewState": "AgIAACcAAAAAAAAAAAAjwDEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-28T02:40:29.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ModelCell.cpp",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\Project_1\\ModelCell.cpp",
+              "RelativeDocumentMoniker": "ModelCell.cpp",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\Project_1\\ModelCell.cpp",
+              "RelativeToolTip": "ModelCell.cpp",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAAAOIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-19T08:55:45.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "python_binding.cpp",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\Project_1\\python_binding.cpp",
+              "RelativeDocumentMoniker": "python_binding.cpp",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\Project_1\\python_binding.cpp",
+              "RelativeToolTip": "python_binding.cpp",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-18T11:12:30.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "python_binding.h",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\Project_1\\python_binding.h",
+              "RelativeDocumentMoniker": "python_binding.h",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\Project_1\\python_binding.h",
+              "RelativeToolTip": "python_binding.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-21T13:04:18.513Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

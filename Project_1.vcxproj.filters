@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\imgui">
+      <UniqueIdentifier>{06094691-cf82-40f7-8463-4b561b703c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui">
+      <UniqueIdentifier>{2a0d31d6-6d55-4d68-a568-4d06cf13a252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="python_integration">
+      <UniqueIdentifier>{653d29e3-b256-4357-bfe3-a37f947b3e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cells">
+      <UniqueIdentifier>{bc0f2a59-4527-492a-85ee-3c21b511595a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui_helpers">
+      <UniqueIdentifier>{8d59fd58-1e47-473b-97b1-160cf8043d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Session_Manager">
+      <UniqueIdentifier>{12f6645f-60b6-4347-9d32-f9b513b2ff42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Project_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui_widgets.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui_demo.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui_draw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui_tables.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui-master\backends\imgui_impl_glfw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="File_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libtinyfiledialogs\tinyfiledialogs.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="python_binding.cpp">
+      <Filter>python_integration</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="File_Reader_Cell.cpp">
+      <Filter>Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_helpers.cpp">
+      <Filter>ImGui_helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ImGuiFileDialog\ImGuiFileDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrepocessDataCell.cpp">
+      <Filter>Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="Session_Manger.cpp">
+      <Filter>Session_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelCell.cpp">
+      <Filter>Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="Visualize.cpp">
+      <Filter>Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\implot-master\implot-master\implot.cpp">
+      <Filter>Header Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\implot-master\implot-master\implot_items.cpp">
+      <Filter>Header Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\implot-master\implot-master\implot_demo.cpp">
+      <Filter>Header Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\stb-master\stb-master\stb_vorbis.c">
+      <Filter>Header Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="LogsWindow.cpp">
+      <Filter>Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPinger.h">
+      <Filter>Cells</Filter>
+    </ClCompile>
+    <ClCompile Include="PredictionCell.cpp">
+      <Filter>Cells</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui_internal.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imstb_rectpack.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imstb_textedit.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imstb_truetype.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imconfig.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui_impl_opengl3.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui-master\backends\imgui_impl_glfw.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="FIle_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Windows\System32\nativefiledialog\src\include\nfd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libtinyfiledialogs\tinyfiledialogs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="python_binding.h">
+      <Filter>python_integration</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="File_Reader_Cell.h">
+      <Filter>Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="imguihelper.h">
+      <Filter>ImGui_helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="AllCells.h">
+      <Filter>Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ImGuiFileDialog\ImGuiFileDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrepocessDataCell.h">
+      <Filter>Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="Session_Manger.h">
+      <Filter>Session_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelCell.h">
+      <Filter>Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualize.h">
+      <Filter>Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\implot-master\implot-master\implot_internal.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\implot-master\implot-master\implot.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_voxel_render.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_truetype.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_tilemap_editor.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_textedit.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_sprintf.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_rect_pack.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_perlin.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_leakcheck.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_include.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_image_write.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_image_resize2.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_image.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_hexwave.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_herringbone_wang_tile.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_easy_font.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_dxt.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_ds.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_divide.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_connected_components.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_c_lexer.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="LogsWindow.h">
+      <Filter>Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="PredictionCell.h">
+      <Filter>Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\json.hpp">
+      <Filter>Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="tooltips.h">
+      <Filter>Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="Project_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="style.h">
+      <Filter>Cells</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="notebook_writer.py" />
+    <None Include="model.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+  </ItemGroup>
+</Project>

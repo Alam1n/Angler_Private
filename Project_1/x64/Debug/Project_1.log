@@ -1,0 +1,9 @@
+﻿  PrepocessDataCell.cpp
+C:\Users\muham\source\repos\Project_1\PrepocessDataCell.cpp(156,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\muham\source\repos\Project_1\PrepocessDataCell.cpp(162,51): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  Visualize.cpp
+C:\Users\muham\source\repos\Project_1\Visualize.cpp(133,40): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\muham\source\repos\Project_1\Visualize.cpp(292,98): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\muham\source\repos\Project_1\Visualize.cpp(293,98): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  Project_1.vcxproj -> C:\Users\muham\source\repos\Project_1\x64\Debug\Project_1.exe

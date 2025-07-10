@@ -1,0 +1,9 @@
+{
+    "features": [
+        "R&D Spend_Min-Max Scaling",
+        "Administration_Min-Max Scaling",
+        "Marketing Spend_Min-Max Scaling"
+    ],
+    "target": "Profit",
+    "task_type": "regression"
+}

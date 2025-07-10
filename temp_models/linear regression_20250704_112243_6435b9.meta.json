@@ -1,0 +1,9 @@
+{
+    "features": [
+        "R&D Spend",
+        "Administration",
+        "Marketing Spend"
+    ],
+    "target": "Profit",
+    "task_type": "regression"
+}

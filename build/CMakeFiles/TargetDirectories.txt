@@ -1,0 +1,2 @@
+C:/Users/muham/source/repos/Project_1/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/muham/source/repos/Project_1/build/CMakeFiles/ZERO_CHECK.dir

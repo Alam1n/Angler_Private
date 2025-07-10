@@ -1,0 +1,23 @@
+{
+    "features": [
+        "R&D Spend_Min-Max Scaling",
+        "Administration_Min-Max Scaling",
+        "Marketing Spend_Min-Max Scaling"
+    ],
+    "target": "Profit",
+    "task_type": "regression",
+    "preprocessing_params": {
+        "R&D Spend_Min-Max Scaling": {
+            "min": 0.0,
+            "max": 165349.2
+        },
+        "Administration_Min-Max Scaling": {
+            "min": 51283.14,
+            "max": 321652.14
+        },
+        "Marketing Spend_Min-Max Scaling": {
+            "min": 0.0,
+            "max": 471784.1
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "features": [
+        "R&D Spend",
+        "Administration",
+        "Marketing Spend"
+    ],
+    "target": "",
+    "task_type": "unsupervised"
+}

@@ -1,0 +1,14 @@
+{
+    "features": [
+        "2",
+        "3",
+        "4",
+        "sum"
+    ],
+    "target": "Unnamed: 5_yes",
+    "task_type": "classification",
+    "target_classes": [
+        1,
+        0
+    ]
+}

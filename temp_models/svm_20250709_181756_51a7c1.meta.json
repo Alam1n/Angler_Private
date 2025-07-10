@@ -1,0 +1,13 @@
+{
+    "features": [
+        "2",
+        "3",
+        "4"
+    ],
+    "target": "Unnamed: 5_No",
+    "task_type": "classification",
+    "target_classes": [
+        0,
+        1
+    ]
+}

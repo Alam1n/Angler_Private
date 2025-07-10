@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{b28e5989-3d4a-467b-aa84-5bb45b365d1a}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\muham\OneDrive\Documents\json-develop\json-develop\include;C:\Users\muham\ImGuiFileDialog;Cells;C:\Windows\System32\nativefiledialog\src\include;C:\Users\muham\AppData\Local\Programs\Python\Python311\Lib\site-packages\pybind11\include;C:\Users\muham\AppData\Local\Programs\Python\Python311\include;imgui;C:\Users\muham\OneDrive\Documents\CPP_Projects\i am gui;C:\Users\muham\OneDrive\Documents\glfw-3.4.bin.WIN64\include;C:\Users\muham\libtinyfiledialogs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\muham\OneDrive\Documents\json-develop\json-develop\include;C:\Users\muham\libtinyfiledialogs;C:\Windows\System32\nativefiledialog;C:\Users\muham\ImGuiFileDialog;C:\Users\muham\AppData\Local\Programs\Python\Python311\libs;C:\Users\muham\OneDrive\Documents\glfw-3.4.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;user32.lib;gdi32.lib;shell32.lib;python311.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\muham\ImGuiFileDialog;Cells;C:\Windows\System32\nativefiledialog\src\include;C:\Users\muham\AppData\Local\Programs\Python\Python311\Lib\site-packages\pybind11\include;C:\Users\muham\AppData\Local\Programs\Python\Python311\include;imgui;C:\Users\muham\OneDrive\Documents\CPP_Projects\i am gui;C:\Users\muham\OneDrive\Documents\glfw-3.4.bin.WIN64\include;C:\Users\muham\libtinyfiledialogs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\muham\libtinyfiledialogs;C:\Windows\System32\nativefiledialog;C:\Users\muham\ImGuiFileDialog;C:\Users\muham\AppData\Local\Programs\Python\Python311\libs;C:\Users\muham\OneDrive\Documents\glfw-3.4.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;user32.lib;gdi32.lib;shell32.lib;python311.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Downloads\implot-master\implot-master\implot.cpp" />
+    <ClCompile Include="..\..\..\Downloads\implot-master\implot-master\implot_demo.cpp" />
+    <ClCompile Include="..\..\..\Downloads\implot-master\implot-master\implot_items.cpp" />
+    <ClCompile Include="..\..\..\Downloads\stb-master\stb-master\stb_vorbis.c" />
+    <ClCompile Include="..\..\..\ImGuiFileDialog\ImGuiFileDialog.cpp" />
+    <ClCompile Include="..\..\..\libtinyfiledialogs\tinyfiledialogs.c" />
+    <ClCompile Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui-master\backends\imgui_impl_glfw.cpp" />
+    <ClCompile Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui.cpp" />
+    <ClCompile Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui_demo.cpp" />
+    <ClCompile Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui_draw.cpp" />
+    <ClCompile Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui_tables.cpp" />
+    <ClCompile Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui_widgets.cpp" />
+    <ClCompile Include="PredictionCell.cpp" />
+    <ClCompile Include="ThreadManager.cpp" />
+    <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="File_1.cpp" />
+    <ClCompile Include="File_Reader_Cell.cpp" />
+    <ClCompile Include="imgui_helpers.cpp" />
+    <ClCompile Include="LogsWindow.cpp" />
+    <ClCompile Include="ModelCell.cpp" />
+    <ClCompile Include="PrepocessDataCell.cpp" />
+    <ClCompile Include="Project_1.cpp" />
+    <ClCompile Include="python_binding.cpp" />
+    <ClCompile Include="Session_Manger.cpp" />
+    <ClCompile Include="ThreadPinger.h" />
+    <ClCompile Include="Visualize.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Windows\System32\nativefiledialog\src\include\nfd.h" />
+    <ClInclude Include="..\..\..\Downloads\implot-master\implot-master\implot.h" />
+    <ClInclude Include="..\..\..\Downloads\implot-master\implot-master\implot_internal.h" />
+    <ClInclude Include="..\..\..\Downloads\json.hpp" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_connected_components.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_c_lexer.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_divide.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_ds.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_dxt.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_easy_font.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_herringbone_wang_tile.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_hexwave.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_image.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_image_resize2.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_image_write.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_include.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_leakcheck.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_perlin.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_rect_pack.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_sprintf.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_textedit.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_tilemap_editor.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_truetype.h" />
+    <ClInclude Include="..\..\..\Downloads\stb-master\stb-master\stb_voxel_render.h" />
+    <ClInclude Include="..\..\..\ImGuiFileDialog\ImGuiFileDialog.h" />
+    <ClInclude Include="..\..\..\libtinyfiledialogs\tinyfiledialogs.h" />
+    <ClInclude Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imconfig.h" />
+    <ClInclude Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui-master\backends\imgui_impl_glfw.h" />
+    <ClInclude Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui.h" />
+    <ClInclude Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui_impl_opengl3.h" />
+    <ClInclude Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imgui_internal.h" />
+    <ClInclude Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imstb_rectpack.h" />
+    <ClInclude Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imstb_textedit.h" />
+    <ClInclude Include="..\..\..\OneDrive\Documents\CPP_Projects\i am gui\imstb_truetype.h" />
+    <ClInclude Include="AllCells.h" />
+    <ClInclude Include="PredictionCell.h" />
+    <ClInclude Include="Project_1.h" />
+    <ClInclude Include="style.h" />
+    <ClInclude Include="ThreadManager.h" />
+    <ClInclude Include="Cell.h" />
+    <ClInclude Include="FIle_1.h" />
+    <ClInclude Include="File_Reader_Cell.h" />
+    <ClInclude Include="imguihelper.h" />
+    <ClInclude Include="LogsWindow.h" />
+    <ClInclude Include="ModelCell.h" />
+    <ClInclude Include="PrepocessDataCell.h" />
+    <ClInclude Include="python_binding.h" />
+    <ClInclude Include="Session_Manger.h" />
+    <ClInclude Include="tooltips.h" />
+    <ClInclude Include="Visualize.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="model.py" />
+    <None Include="notebook_writer.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
