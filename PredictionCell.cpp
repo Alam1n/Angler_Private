@@ -5,7 +5,6 @@ PredictionCell::PredictionCell()
 {
 
     filename = SessionManager::getInstance().GetModelFileName();
-    std::cout << filename << std::endl;
     features = SessionManager::getInstance().getFeatures();
     feature_length = SessionManager::getInstance().getFeatures().size();
    
@@ -17,7 +16,7 @@ void  PredictionCell::ShowCellUI()
 {
     static float result;
     static bool showprediction = false;
-
+    filename = SessionManager::getInstance().GetModelFileName();
     Cell::ShowCellUI();
     // Assuming feature_length is known beforehand
    

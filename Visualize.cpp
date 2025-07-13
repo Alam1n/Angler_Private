@@ -1,6 +1,5 @@
 ﻿#include "Visualize.h"
 #include <GLFW/glfw3.h>
-#include "implot.h"
 #include "Cell.h"
 #include "imguihelper.h"
 #include "python_binding.h"
@@ -74,44 +73,6 @@ void Visualize::RenderSavedPlot(const std::string& imagePath, float width, float
 
 void Visualize::RenderMetricsGraph(const std::string& title, float accuracy, float precision, float recall, float f1, float width, float hight) {
     
-    // Start an ImGui window
-    ImGui::Begin(title.c_str());
-   
-    // Metric data
-    const char* labels[] = { "Accuracy", "Precision", "Recall", "F1" };
-    const double positions[] = { 0.0, 1.0, 2.0, 3.0 }; // X-axis positions (for SetupAxisTicks)
-    float metrics[] = { accuracy, precision, recall, f1 }; // Y-axis values (floats for PlotBars)
-
-    ImGui::SetWindowPos(ImVec2(0, 0));
-
-    // Convert positions to float for PlotBars
-    float positions_f[] = { (float)positions[0], (float)positions[1], (float)positions[2], (float)positions[3] };
-
-    // Begin an ImPlot plot
-    if (ImPlot::BeginPlot("Metrics Comparison", ImVec2(width, hight))) {
-        // Set up axes labels and auto-fit
-        ImPlot::SetupAxes("Metric", "Value", ImPlotAxisFlags_AutoFit, ImPlotAxisFlags_AutoFit);
-
-        
-        // Set custom ticks for the x-axis
-        ImPlot::SetupAxisTicks(ImAxis_X1, positions, 4, labels); // 4 ticks at positions 0.0, 1.0, 2.0, 3.0
-
-        // Set y-axis limits from 0 to 1
-        ImPlot::SetupAxisLimits(ImAxis_Y1, 0.0, 1.0);
-
-        // Plot bars (X positions are floats, Y values are metrics)
-        ImPlot::PlotBars("Metrics", positions_f, metrics, 4, 0.5); // 4 bars, width = 0.5
-
-        ImPlot::EndPlot();
-    }
-    // Set the window size to match the main window size.
-    ImVec2 mainWindowSize = ImGui::GetIO().DisplaySize; // Get the size of the main window
-    ImVec2 cellWindowSize = ImVec2(width, hight); // Adjust multiplier as needed
-
-    ImGui::SetWindowSize(cellWindowSize, ImGuiCond_Always);
-    
-    // End the ImGui window
-    ImGui::End();
 }
 
 Visualize::Visualize()
@@ -353,8 +314,9 @@ void Display_MetricsGraph(float width, float height, float x_pos, float y_pos)
         if (ImGui::Button("Generate Predicted Plot") && imagePaths.size() < maxImages && !isProcessing) {
            
             isProcessing = true;
+            
             futureImagePath = ThreadManager::getInstance().submitTask(
-                [x = y_pred, y = y_test, type = plotTypes[selectedPlotType]] {
+                [x = y_test, y = y_pred, type = plotTypes[selectedPlotType]] {
                     return GeneratePredictionPlotImage(x, y, type);
                 }
             );
@@ -444,7 +406,7 @@ void Display_MetricsGraph(float width, float height, float x_pos, float y_pos)
             maximizedIndex = -1;
             ImGui::CloseCurrentPopup();
         }
-
+        helper.RefreshColumns();
         ImGui::EndPopup();
         
     }

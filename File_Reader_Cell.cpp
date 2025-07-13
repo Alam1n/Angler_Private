@@ -8,7 +8,7 @@ void FileReaderCell::ShowCellUI()
         ImGui::Separator();
         ImGui::PushFont(UIStyle::headingFont);
         // Later in your UI:
-        ImGui::Text("File Manager");
+        ImGui::Text("File Loader");
         ImGui::PopFont();
         
 

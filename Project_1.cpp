@@ -6,7 +6,6 @@
 #include "python_binding.h"
 #include "Cell.h"
 #include "Visualize.h"
-#include "implot.h"
 #include <filesystem>
 #include "style.h"
 
@@ -359,7 +358,7 @@ int main(int, char**) {
     // Initialize ImGui
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
-    ImPlot::CreateContext();
+  
     ImGuiIO& io = ImGui::GetIO(); (void)io;
     ImGui::StyleColorsDark();
     UIStyle::ApplyFont(io);
@@ -413,7 +412,7 @@ int main(int, char**) {
     ImGui_ImplOpenGL3_Shutdown();
     ImGui_ImplGlfw_Shutdown();
     ImGui::DestroyContext();
-    ImPlot::DestroyContext();
+    
 
     glfwDestroyWindow(window);
     glfwTerminate();

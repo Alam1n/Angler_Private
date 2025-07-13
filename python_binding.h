@@ -14,7 +14,6 @@
 #include <atomic>
 #include <sstream>
 
-
 namespace py = pybind11;
 
 //Veraibles that go through the thread and need to be catched

@@ -13,13 +13,7 @@ public:
 
     void ShowCellUI() override;
 
-   /* void SVM();
-    void Regression();
-    void DecisionTree();
-    void DisplayMetrics(const py::tuple& metrics);
-    void SVM_async();
-    */
-
+   
     void DisplayNewMetrics(const std::vector<float>& metrics);
    
 
@@ -45,7 +39,7 @@ private:
     bool modelTrained;  // Flag to indicate if the model is trained
     float testSplit; // Default test split percentage
     int randomSeed;    // Default random seed
-    int k_clusters = 1;
+    int k_clusters = 2;
     // Display the accurancy result
     bool show_accuracy;
     bool show_precision;

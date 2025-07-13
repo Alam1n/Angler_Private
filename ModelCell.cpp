@@ -228,7 +228,7 @@ void ModelCell::Regression_Models()
             std::cout << metrics_float[0] << std::endl ;
             temp_model_path = std::get<3>(result_r);
             SessionManager::getInstance().setModelFilename(temp_model_path);
-            std::cout << y_true_r[0] << std::endl;
+           
 
             modelTrained = !trainedModel.is_none();  // Check if training was successful
 
@@ -257,6 +257,7 @@ void ModelCell::Regression_Models()
                 if (success) {
                     ImGui::Text("Model exported successfully to %s", exportPath.c_str());
                     log_window.AddLog("Model exported successfully!", "SUCCESS");
+                    log_window.AddLog("Classification Graph Ready.");
                     SessionManager::getInstance().setModelFilename(exportPath);
                     
                 }
@@ -273,9 +274,9 @@ void ModelCell::Regression_Models()
             
             
                 //SessionManager::getInstance().setPredictedValues(y_pred_r, y_true_r);
-            SessionManager::getInstance().setYpred(y_pred_r);
-            SessionManager::getInstance().setYtest(y_true_r);
-                log_window.AddLog("Regression Gragh Available");
+                SessionManager::getInstance().setYpred(y_pred_r);
+                SessionManager::getInstance().setYtest(y_true_r);
+                
             
 
         }
@@ -360,6 +361,7 @@ void ModelCell::Classification_Models()
                 if (success) {
                     ImGui::Text("Model exported successfully to %s", exportPath.c_str());
                     log_window.AddLog("Model exported successfully!", "SUCCESS");
+                    log_window.AddLog("Classification Graph Ready.");
                     SessionManager::getInstance().setModelFilename(exportPath);
                     
                 }
@@ -372,12 +374,14 @@ void ModelCell::Classification_Models()
 
         if (!metrics_float.empty()) {
             DisplayNewMetrics(metrics_float);  // You'll update this function to take vector<float>
-            if (ImGui::Button("Show Metrics Graph")) {
+            
                 std::vector<float> Y_pred(y_pred.begin(), y_pred.end());
                 std::vector<float> Y_test(y_true.begin(), y_true.end());
-                SessionManager::getInstance().setPredictedValues(Y_pred, Y_test);
-                log_window.AddLog("Classification Graph created.");
-            }
+                SessionManager::getInstance().setYpred(Y_pred);
+                SessionManager::getInstance().setYtest(Y_test);
+
+            
+            
         }
         else {
             log_window.AddLog("Failed to Retrieve Metrics.", "ERROR");

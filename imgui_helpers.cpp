@@ -16,7 +16,7 @@ void ImguiHelper::Assign_values(){
     selectedPreprocessingOption = "None";
     showPreprocessingOptions = false;
     path = SessionManager::getInstance().getFilePath();
-    preprocessingOptions = { "Generate and Remove Columns",  "Normalize Columns", "Label Encoding","OneHot Encoding" ,"Standardization", "Handle Missing Values"};
+    preprocessingOptions = { "Generate and Remove Columns",  "Normalize Columns", "Label Encoding","OneHot Encoding" , "Handle Missing Values"};
     column_groups = ReturnColumns(path);
     columns = std::get<0>(column_groups); // Populate the column list from Python
     
@@ -432,7 +432,6 @@ void ImguiHelper::HandleMissingValue()
 {
     if (!columnsForNormalization.empty()) {
         ImGui::PushID("HnadleMisssingValues");
-        tips.ShowToolTip(Normalization_text, "MissingValues_Columns");
 
         if (ImGui::CollapsingHeader("Select Columns for Handling Missing Values")) {
             for (size_t i = 0; i < columnsForNormalization.size(); ++i) {

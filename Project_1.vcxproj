@@ -122,7 +122,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\muham\ImGuiFileDialog;Cells;C:\Windows\System32\nativefiledialog\src\include;C:\Users\muham\AppData\Local\Programs\Python\Python311\Lib\site-packages\pybind11\include;C:\Users\muham\AppData\Local\Programs\Python\Python311\include;imgui;C:\Users\muham\OneDrive\Documents\CPP_Projects\i am gui;C:\Users\muham\OneDrive\Documents\glfw-3.4.bin.WIN64\include;C:\Users\muham\libtinyfiledialogs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\muham\OneDrive\Documents\json-develop\json-develop\include;C:\Users\muham\ImGuiFileDialog;Cells;C:\Windows\System32\nativefiledialog\src\include;C:\Users\muham\AppData\Local\Programs\Python\Python311\Lib\site-packages\pybind11\include;C:\Users\muham\AppData\Local\Programs\Python\Python311\include;imgui;C:\Users\muham\OneDrive\Documents\CPP_Projects\i am gui;C:\Users\muham\OneDrive\Documents\glfw-3.4.bin.WIN64\include;C:\Users\muham\libtinyfiledialogs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -130,7 +130,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\muham\libtinyfiledialogs;C:\Windows\System32\nativefiledialog;C:\Users\muham\ImGuiFileDialog;C:\Users\muham\AppData\Local\Programs\Python\Python311\libs;C:\Users\muham\OneDrive\Documents\glfw-3.4.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\muham\OneDrive\Documents\json-develop\json-develop\include\nlohmann;C:\Users\muham\libtinyfiledialogs;C:\Windows\System32\nativefiledialog;C:\Users\muham\ImGuiFileDialog;C:\Users\muham\AppData\Local\Programs\Python\Python311\libs;C:\Users\muham\OneDrive\Documents\glfw-3.4.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>glfw3.lib;opengl32.lib;user32.lib;gdi32.lib;shell32.lib;python311.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

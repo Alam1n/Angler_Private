@@ -462,6 +462,7 @@ std::tuple<std::vector<float>, std::vector<float>, std::vector<float>, std::stri
 
         std::cout << "Model MSE: " << metrics[0] << std::endl;
         std::cout << "First Value of Y_pred: " << y_pred[0] << std::endl;
+        std::cout << "First Value of Y_pred: " << y_test[0] << std::endl;
 
         ss.str(""); ss.clear();
         ss << "Python training completed for " << model_type << " successfully.";
