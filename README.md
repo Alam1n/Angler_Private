@@ -44,9 +44,12 @@ No save reminder on exit — remember to save your project manually (coming in v
 
 No hyperparameter tuning UI yet (coming in v1.2).
 
-🛟 Support
-If you run into problems, send your console logs plus details about the issue.
-You can also reach out through the repo contact.
+## 🛟 Support
+If you run into problems, send your console logs plus details about the ISSUE tab,
+if intrested in the future update fill the form https://docs.google.com/forms/d/e/1FAIpQLSf4vGP_arZPJekjHDQhDQDeuRGb6RH_2mxIi-pFBv3_NsZe3A/viewform?usp=header
+You can also reach out through the repo contact
+WhatsApp: +2349128090909, Discord:nickname2905
+
 
 ## 📚 License
 Currently proprietary — for demo/testing use only.
