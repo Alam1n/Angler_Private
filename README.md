@@ -20,6 +20,7 @@ Epor as code
 
 ## ⚙️ How to Run
 Download the Release.zip from the Releases page.
+<img width="1920" height="1161" alt="Alam1n_Angler_Private - Google Chrome 7_14_2025 6_38_36 PM" src="https://github.com/user-attachments/assets/4938d7b5-0722-4eca-a204-cb8f702ec3bd" />
 
 Unzip it on your machine.
 
