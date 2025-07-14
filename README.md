@@ -50,3 +50,6 @@ You can also reach out through the repo contact.
 ## 📚 License
 Currently proprietary — for demo/testing use only.
 
+## 📕 Documantation
+ Find the Quick Start pdf in the doc folder from the [Doc](./doc)
+
