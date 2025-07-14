@@ -19,7 +19,7 @@ Logs for debugging
 Epor as code
 
 ## ⚙️ How to Run
-Download the Release.zip from the Releases page.
+Download the `Release.zip` from the [Releases](./releases) page.
 
 Unzip it on your machine.
 
