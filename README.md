@@ -1,59 +1,96 @@
-# ML BUILDER TOOLKIT
-Version: v1.0.0
+ # ML BUILDER TOOLKIT (Working Name)
 
-This is the first public test release of ML BUILDER TOOLKIT, a simple no-code machine learning builder built with C++ and Python.
+**Version:** v1.0.0
 
-⚡ Note: “ML BUILDER TOOLKIT” is a placeholder name — it will change in future releases.
+⚡ *Note: “ML BUILDER TOOLKIT” is just a placeholder — the name will change in future updates.*
 
-### Quick Start Video: https://youtu.be/xFQB1z091gQ
+---
 
-## 🚀 Features
-Train regressio, classification and clustering  models (Linear Regression, KNN, Ridge, SVR*)
+## ✨ What is this?
 
-Basic predictions and plots
+Angler ML (working name) is a local no-code ML lab designed to help you **draft**, **tweak**, and **export** machine learning pipelines — completely offline.
 
-Save trained models (basic)
+No more writing the same code over and over just to test different splits, hyperparameters, or new data versions. Build your first model, tune it visually, re-run your experiments, then export clean Python code (or a starter API, coming soon).
 
-Logs for debugging
+Built in C++ and Python for max performance — made for students, indie devs, and anyone who wants to *experiment locally* without burning cloud credits.
 
-Epor as code
+---
 
-## ⚙️ How to Run
-Download the Release.zip from the Releases page.
-<img width="1920" height="1161" alt="Alam1n_Angler_Private - Google Chrome 7_14_2025 6_38_36 PM" src="https://github.com/user-attachments/assets/4938d7b5-0722-4eca-a204-cb8f702ec3bd" />
+## 🚀 **Features**
 
-Unzip it on your machine.
+✅ Train regression, classification & clustering models (Linear Regression, KNN, Ridge, SVR*)
 
-Make sure you have Microsoft Visual C++ Redistributable x64 installed.
+✅ Preprocess CSVs & handle common data cleaning tasks
 
-Run Project_1.exe.
+✅ Basic predictions, plots & metrics
 
-⚠️ Note: Some features write files to disk — run the app with appropriate permissions.
+✅ Save trained models (basic version)
 
-## 📦 Dependencies
-Python 3.11.x
+✅ Export your full pipeline as Python code
 
-Required packages: numpy, pandas, scikit-learn, matplotlib, seaborn
+✅ Built-in logs for easy debugging
 
-tkinter may be required for matplotlib backends
+> *Features like deep learning, advanced hyperparameter tuning & multi-model lab splits are planned for upcoming versions.*
 
-## 📝 Known Issues
-Saved models cannot yet be reloaded for reuse (coming in v1.2).
+---
 
-No save reminder on exit — remember to save your project manually (coming in v1.2).
+## 🎥 **Quick Start Video**
 
-No hyperparameter tuning UI yet (coming in v1.2).
+👉 [5-Min Walkthrough on YouTube](https://youtu.be/xFQB1z091gQ)
 
-## 🛟 Support
-If you run into problems, send your console logs plus details about the ISSUE tab,
-if intrested in the future update fill the form https://docs.google.com/forms/d/e/1FAIpQLSf4vGP_arZPJekjHDQhDQDeuRGb6RH_2mxIi-pFBv3_NsZe3A/viewform?usp=header
-You can also reach out through the repo contact
-WhatsApp: +2349128090909, Discord:nickname2905
+---
 
+## ⚙️ **How to Run**
 
-## 📚 License
-Currently proprietary — for demo/testing use only.
+1. Download `Release.zip` from the Releases page.<img width="1920" height="1161" alt="Alam1n_Angler_Private - Google Chrome 7_14_2025 6_38_36 PM" src="https://github.com/user-attachments/assets/4938d7b5-0722-4eca-a204-cb8f702ec3bd" />
 
-## 📕 Documantation
- Find the Quick Start pdf in the doc folder from the [Doc](./doc)
+2. Unzip it on your machine.
+3. Make sure you have **Microsoft Visual C++ Redistributable x64** installed.
+4. Run `Project_1.exe`.
+
+⚠️ *Note: Some features write files to disk — run with appropriate permissions.*
+
+---
+
+## 📦 **Dependencies**
+
+- Python 3.11.x (embedded)
+- Required: `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `seaborn`
+- `tkinter` may be required for matplotlib backends
+
+---
+
+## 📝 **Known Limitations (v1.0)**
+
+- Saved models cannot yet be reloaded for reuse *(coming in v1.2)*.
+- No save reminder on exit — save your project manually *(coming in v1.2)*.
+- No hyperparameter tuning UI yet *(coming in v1.2)*.
+
+---
+
+## 🗨️ **Feedback & Updates**
+
+I’m looking for students, teachers, or devs who want to shape this into a useful offline toolkit.
+
+✅ Please share bugs, logs & suggestions through the ISSUE tab  
+✅ Or fill out the interest form here: [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf4vGP_arZPJekjHDQhDQDeuRGb6RH_2mxIi-pFBv3_NsZe3A/viewform?usp=header)
+
+📞 WhatsApp: +2349128090909  
+💬 Discord: nickname2905
+
+---
+
+## 📚 **License**
+
+Currently proprietary — for demo/testing only.
+
+---
+
+## 📘 **Documentation**
+
+Find the Quick Start PDF in the `doc` folder.  
+[View Docs](./doc)
+
+---
+
 
