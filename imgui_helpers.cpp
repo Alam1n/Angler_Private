@@ -16,7 +16,7 @@ void ImguiHelper::Assign_values(){
     selectedPreprocessingOption = "None";
     showPreprocessingOptions = false;
     path = SessionManager::getInstance().getFilePath();
-    preprocessingOptions = { "Generate and Remove Columns",  "Normalize Columns", "Label Encoding","OneHot Encoding" , "Handle Missing Values"};
+    preprocessingOptions = { "Generate and Remove Columns",  "Normalize Columns", "Label Encoding","OneHot Encoding" , "Handle Missing Values", "Text Cleaning"};
     column_groups = ReturnColumns(path);
     columns = std::get<0>(column_groups); // Populate the column list from Python
     
@@ -27,6 +27,8 @@ void ImguiHelper::Assign_values(){
     columnNamesCStr.reserve(columns.size());
     for (const auto& col : columns)
         columnNamesCStr.push_back(col.c_str());
+
+    SessionManager::getInstance().SetNonNumericsColumns(columnsForEncoding);
 
 }
 
@@ -165,6 +167,42 @@ void ImguiHelper::Label_Encoding(std::string encoding_type)
 }
 
 
+
+void ImguiHelper::Text_Cleaning_UI()
+{
+    static int selectedTextColumnIndex = 0;
+    if (!columnsForEncoding.empty()) {
+        std::vector<const char*> columnCStrs;
+        for (const auto& col : columnsForEncoding)
+            columnCStrs.push_back(col.c_str());
+
+        ImGui::Combo("Select Text Column", &selectedTextColumnIndex, columnCStrs.data(), columnCStrs.size());
+
+        static bool lowercase = false;
+        static bool punctuation = false;
+        static bool stopwords = false;
+        static bool lemmatize = false;
+        static bool remove_extra_spaces = false;
+
+        ImGui::Checkbox("Remove Extra Spaces", &remove_extra_spaces);
+        ImGui::Checkbox("Lowercase", &lowercase);
+        ImGui::Checkbox("Remove Punctuation", &punctuation);
+        ImGui::Checkbox("Remove Stopwords", &stopwords);
+        ImGui::Checkbox("Lemmatize", &lemmatize);
+
+        if (ImGui::Button("Apply Cleaning")) {
+            std::string columnName = columnsForEncoding[selectedTextColumnIndex];
+            if (remove_extra_spaces) selected_cleaning_steps.push_back("remove_extra_spaces");
+            if (lowercase) selected_cleaning_steps.push_back("lowercase");
+            if (punctuation) selected_cleaning_steps.push_back("remove_punctuation");
+            if (stopwords) selected_cleaning_steps.push_back("remove_stopwords");
+            if (lemmatize) selected_cleaning_steps.push_back("lemmatize");
+            ApplyTextCleaning(path, columnName, selected_cleaning_steps);
+            log_window.AddLog("Text cleaning applied to: " + columnName);
+            RefreshColumns();
+        }
+    }
+}
 
 
 
@@ -374,60 +412,7 @@ void ImguiHelper::Select_Normalization() {
     }
 }
 
-void ImguiHelper::Standadization()
-{
-    if (!columnsForNormalization.empty()) {
-        ImGui::PushID("Standadization");
-        if (!columnsForNormalization.empty()) {
-            // Tooltip for instructions
-            tips.ShowToolTip(Normalization_text, "Normalization_Columns");
 
-            // Collapsing section for column selection
-            if (ImGui::CollapsingHeader("Select Columns for Standardization")) {
-                for (size_t i = 0; i < columnsForNormalization.size(); ++i) {
-                    if (i < selectedColumns.size()) {
-                        bool isSelected = selectedColumns[i];
-                        if (ImGui::Checkbox(columnsForNormalization[i].c_str(), &isSelected)) {
-                            selectedColumns[i] = isSelected;
-                            log_window.AddLog(columnsForNormalization[i] + ": selected for Standardization");
-                        }
-                    }
-                    else {
-                        ImGui::Text("Mismatch between columns and selection list.");
-                        log_window.AddLog("Mismatch between columns and selectedColumns");
-                    }
-                }
-            }
-
-            if (ImGui::Button("Standardize Columns")) {
-                std::vector<std::string> selectedColumnNames;
-                std::vector<std::string> newColumnNames;
-
-                for (size_t i = 0; i < selectedColumns.size(); ++i) {
-                    if (selectedColumns[i]) {
-                        selectedColumnNames.push_back(columnsForNormalization[i]);
-                        newColumnNames.push_back(columnsForNormalization[i] + "_standardized");
-                    }
-                }
-
-                if (!selectedColumnNames.empty()) {
-                    auto updatedCols = CreateStandardizedColumn(path, selectedColumnNames, newColumnNames);
-
-                    if (!updatedCols.empty()) {
-                        columnsForNormalization = updatedCols;
-                        selectedColumns.resize(columnsForNormalization.size(), false);
-                        log_window.AddLog("Standardization applied");
-                        RefreshColumns();
-                    }
-                    else {
-                        log_window.AddLog("Error standardizing columns", "ERROR");
-                    }
-                }
-            }
-        }
-        ImGui::PopID();
-    }
-}
 void ImguiHelper::HandleMissingValue()
 {
     if (!columnsForNormalization.empty()) {

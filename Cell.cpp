@@ -46,10 +46,11 @@ void RenderCellsUI(float width, float hight , float x_pos, float y_pos) {
 
     if (SessionManager::getInstance().getPreprocessed())
     {
-        if (ImGui::Button("Add Model Cell")) {
+        if (ImGui::Button("Add Model Cell") and !SessionManager::getInstance().getModelPresent()) {
             cells.emplace_back(std::make_unique<ModelCell>());  // Add the new cell dynamically
             SessionManager::getInstance().setPreprocessed(false);
             SessionManager::getInstance().setModelPresent(true);
+
         }
     }
 
@@ -102,4 +103,6 @@ void ClearSpecificCells() {
                     dynamic_cast<ModelCell*>(cell.get()) ;
             }),
         cells.end());
+    SessionManager::getInstance().setModelPresent(false);
+
 }

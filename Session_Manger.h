@@ -129,6 +129,9 @@ public:
     void setF1(float value) { f1 = value; }
     float getF1() const { return f1; }
 
+    void SetNonNumericsColumns(std::vector<std::string> columns) { NNColumns = columns; }
+    std::vector<std::string> getNonNumericsColumns() const{ return NNColumns; }
+
     
     void setPredictedValues(const std::vector<float>& Y_pred, const std::vector<float>&  Y_test) {
         y_pred = Y_pred;
@@ -140,7 +143,7 @@ public:
     }
     
     void setYpred(const std::vector<float>& Y_pred) {
-        y_pred = Y_pred;
+        y_pred = Y_pred; 
     }
     const std::vector<float>& getYpred() const {
         return y_pred;
@@ -165,6 +168,7 @@ private:
     std::string output;   // Store output or processed data
     std::string filename ;
     std::vector<std::string> features; // List to store selected feature columns
+    std::vector<std::string> NNColumns;
     std::vector<float> y_pred;
     std::vector <float> y_test;
     

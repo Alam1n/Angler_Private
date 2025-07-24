@@ -64,13 +64,15 @@ std::vector<std::string> CreateNormalizedColumn(const std::string& filename, con
 
 std::vector<std::string> LabelEncodeColumn(const std::string& filename, const std::string& columnName, const std::string& newColumnName, const std::string& encoding_type);
 
+void ApplyTextCleaning(const std::string& filename, const std::string& columnName, const std::vector<std::string>& steps);
+
 // ModeFuncitons
 std::tuple<std::vector<int>, std::vector<int>, std::vector<float>, std::string>Run_Classification(std::string model_type, std::string data, std::string target, std::vector<std::string> features, int randomSeed, float testSplit);
 std::tuple<std::vector<float>, std::vector<float>, std::vector<float>, std::string> Run_Regression(std::string model_type, std::string data, std::string target, std::vector<std::string> features, int randomSeed, float testSplit);
 
 std::vector<std::string> HandleMissingValues(const std::string& filename, const std::vector<std::string>& columns, const std::string& method);
 
-float predict_model(std::string filename, std::vector<float> features);
+float predict_model(std::string filename, std::vector<float> numeric_features, std::vector<std::string> string_features);
 
 std::tuple<std::vector<int>, float, std::string> Run_Unsupervised(std::string model_type, std::string data, std::vector<std::string> features, int randomSeed, int n_clusters);
 

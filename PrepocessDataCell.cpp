@@ -71,9 +71,9 @@ void PreprocessDataCell::ShowCellUI() {
         {
             helper.Label_Encoding("onehot");
         }
-        if (helper.selectedPreprocessingOption == "Standardization")
+        if (helper.selectedPreprocessingOption == "Text Cleaning")
         {
-            helper.Standadization();
+            helper.Text_Cleaning_UI();
         }
         if (helper.selectedPreprocessingOption == "Handle Missing Values")
         {
@@ -82,6 +82,7 @@ void PreprocessDataCell::ShowCellUI() {
 
 
         Select_Target_and_Features();  // Call your function for selecting features and target
+        helper.RefreshColumns();
 
         ImGui::Separator();
     }
@@ -241,7 +242,7 @@ void PreprocessDataCell::Select_Target_and_Features()
                 ImGui::Text("Selected Target: %s", helper.targetList[0].c_str());
             }
 
-            if (helper.featureList.size() >= 2 && !helper.targetList.empty() && SessionManager::getInstance().getModelPresent() == false) {
+            if (helper.featureList.size() >= 1 && !helper.targetList.empty() && SessionManager::getInstance().getModelPresent() == false) {
                 ImGui::Text("Features And Taget are ready");
                 SessionManager::getInstance().setModelMethod("Supervised");
                 SessionManager::getInstance().setPreprocessed(true);

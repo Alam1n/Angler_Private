@@ -25,15 +25,27 @@ std::vector<std::vector<std::string>> Visualize::LoadCSV(const std::string& file
         return data;
     }
 
-    while (std::getline(file, line) && rowCount < maxRows) {  // Load only `maxRows` rows
-        std::stringstream ss(line);
+    while (std::getline(file, line) && rowCount < maxRows) {
         std::vector<std::string> row;
         std::string cell;
+        bool inQuotes = false;
 
-        while (std::getline(ss, cell, ',')) {
-            row.push_back(cell);
+        for (size_t i = 0; i < line.length(); ++i) {
+            char c = line[i];
+
+            if (c == '"' && (i == 0 || line[i - 1] != '\\')) {
+                inQuotes = !inQuotes;
+            }
+            else if (c == ',' && !inQuotes) {
+                row.push_back(cell);
+                cell.clear();
+            }
+            else {
+                cell += c;
+            }
         }
 
+        row.push_back(cell);  // push the last cell
         data.push_back(row);
         rowCount++;
     }
@@ -174,9 +186,9 @@ void Visualize::PreprocessingUI() {
     {
         helper.Label_Encoding("onehot");
     }
-    if (helper.selectedPreprocessingOption == "Standardization")
+    if (helper.selectedPreprocessingOption == "Text Cleaning")
     {
-        helper.Standadization();
+        helper.Text_Cleaning_UI();
     }
 
 
@@ -406,11 +418,11 @@ void Display_MetricsGraph(float width, float height, float x_pos, float y_pos)
             maximizedIndex = -1;
             ImGui::CloseCurrentPopup();
         }
-        helper.RefreshColumns();
+      
         ImGui::EndPopup();
         
     }
-    
+    helper.RefreshColumns();
     ImGui::End(); // Visualization Dashboard
 }
 

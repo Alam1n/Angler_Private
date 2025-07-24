@@ -12,9 +12,9 @@ public:
     
     void Select_Target_and_Features();
     void Label_Encoding(std::string encoding_type);
+    void Text_Cleaning_UI();
     void Generate_Columns();
     void Select_Normalization();
-    void Standadization();
     void HandleMissingValue();
     void RefreshColumns();
 
@@ -31,6 +31,7 @@ public:
     std::vector<std::string> featureList; // List to store selected feature columns
     std::vector<std::string> targetList;  // List to store selected target column
     std::vector<char> selectedColumns;
+    std::vector<std::string> selected_cleaning_steps;// In your ImGuiHelpers.cpp
 
 
     

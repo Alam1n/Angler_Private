@@ -396,6 +396,22 @@ std::vector<std::string> LabelEncodeColumn(const std::string& filename, const st
     }
 }
 
+void ApplyTextCleaning(const std::string& filename, const std::string& columnName, const std::vector<std::string>& steps) {
+    try {
+        py::module module = py::module::import("model");
+        py::list pySteps;
+        for (const auto& step : steps)
+            pySteps.append(step);
+
+        module.attr("apply_text_cleaning")(filename, columnName, pySteps);
+    }
+    catch (const py::error_already_set& e) {
+        std::cerr << "Python exception: " << e.what() << std::endl;
+        log_window.AddLog(e.what(), "ERROR");
+    }
+}
+
+
 
 
 std::tuple<std::vector<int>, std::vector<int>, std::vector<float>, std::string> Run_Classification(std::string model_type,std::string data, std::string target, std::vector<std::string> features, int randomSeed, float testSplit) {
@@ -513,7 +529,7 @@ std::vector<std::string> HandleMissingValues(
 }
 
 
-float predict_model(std::string filename, std::vector<float> features)
+float predict_model(std::string filename, std::vector<float> numeric_features, std::vector<std::string> string_features)
 {
     try {
         py::gil_scoped_acquire acquire;
@@ -527,7 +543,7 @@ float predict_model(std::string filename, std::vector<float> features)
             return 0.0f;
         }
         // Import and call the Python function
-        py::float_ result = cached_prediction_function(filename, features);
+        py::float_ result = cached_prediction_function(filename, numeric_features, string_features);
 
         ss.str(""); ss.clear();
         ss << "Prediction completed  successfully.";

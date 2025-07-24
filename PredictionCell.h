@@ -20,6 +20,6 @@ private:
     size_t feature_length;
     std::vector<std::string> features;
     std::string prediction_text = "How It Works\nInput your values and click 'Run' to get the prediction result from your model.";
-
+    std::vector<std::string> NonNumerics;
 };
 #endif // 
